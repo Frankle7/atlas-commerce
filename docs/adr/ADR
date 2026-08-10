@@ -1,0 +1,77 @@
+# Architecture Decision Records
+
+Este diretório contém as principais decisões arquiteturais do Atlas Commerce.
+
+Os ADRs registram decisões que possuem impacto significativo na arquitetura, desenvolvimento ou evolução do projeto.
+
+---
+
+## ADR-000
+
+### Project Architecture
+
+Define a arquitetura geral e os princípios estruturais do Atlas Commerce.
+
+---
+
+## ADR-001
+
+### PostgreSQL
+
+Define o PostgreSQL como banco de dados relacional oficial do projeto.
+
+---
+
+## ADR-002
+
+### JWT
+
+Define JWT como estratégia de autenticação baseada em tokens.
+
+---
+
+## ADR-003
+
+### UUID
+
+Define UUID como estratégia oficial de identificação das entidades.
+
+---
+
+## ADR-004
+
+### Repository Pattern
+
+Define o Repository Pattern como padrão de acesso aos dados.
+
+---
+
+## ADR-005
+
+### Package by Feature
+
+Define Package by Feature como estratégia oficial de organização dos pacotes.
+
+---
+
+## ADR-006
+
+### Category Domain
+
+Define as decisões arquiteturais específicas relacionadas ao domínio Category.
+
+Este ADR pertence à implementação da MISSION-004 e, portanto, não faz parte da fundação da `main`.
+
+---
+
+# Organização
+
+Os ADRs de fundação são:
+
+```text
+ADR-000
+ADR-001
+ADR-002
+ADR-003
+ADR-004
+ADR-005
